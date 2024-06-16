@@ -11,7 +11,7 @@ import path from "path";
 <<<<<<< HEAD
 import { fileURLToPath } from 'url';
 =======
-// import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url';
 >>>>>>> 4c724c13ed31eda115bb43e45e6ea20a0126bcf3
 //configure env
 dotenv.config();
@@ -26,8 +26,8 @@ const __dirname= path.dirname(__filename);
 const app = express();
 
 =======
-// const __filename = fileURL_ToPath (import.meta.url);
-// const __dirname= path.dirname(__filename); 
+const __filename = fileURL_ToPath (import.meta.url);
+const __dirname= path.dirname(__filename); 
 //rest object
 const app = express();
 >>>>>>> 4c724c13ed31eda115bb43e45e6ea20a0126bcf3
